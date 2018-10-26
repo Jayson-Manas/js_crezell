@@ -36,19 +36,18 @@ console.log(number)
   // [1, 2, 3] --> [2, 4, 6]
   // For the beginner, try to use the map method - it comes in very handy quite a lot so is a good one to know.
   var num = [1,2,3];
-  
+  var i=''
+  var y=''
   // write your function here
-  function double(num){
-       x= num[x]*2
-      console.log(x)
+  function double(_y){
+       y= y*2
+        console.log(y)
 
   }
   // call your function here
-  for(var x=0; x>3; x++) {
-
-  double(num[x])
-}
-  
+  for(var i=0; i<3; i++) {
+    var y =num[i]
+    double(y)
   // 3. You will be given an array (a) and a value (x). All you need to do is check whether the provided array contains the value.
   // Array can contain numbers or strings. X can be either. Return true if the array contains the value, false if not.
   
