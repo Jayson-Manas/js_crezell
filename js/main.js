@@ -51,11 +51,25 @@ function makeNegative (number) {
 
   // 3. You will be given an array (a) and a value (x). All you need to do is check whether the provided array contains the value.
   // Array can contain numbers or strings. X can be either. Return true if the array contains the value, false if not.
-  
+  var x
+  var a = [1,2,x,3]
   // write your function here
-  
+  function check(z){
+      if(a.includes(x)){
+          return true
+
+      }
+      else{
+          return false
+      }
+
+  }
   // call your function here
-  
+  for(var i=0; i<5; i++) {
+    var z =a[i]
+    console.log(check(z))
+}
+    
   // 4. Bonus Exercise 
   // Life isn't always easy as a small word amongst big words. If only they had a code warrior to help them out...
   
