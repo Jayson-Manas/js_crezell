@@ -84,3 +84,38 @@ function makeNegative (number) {
   // For the purposes of this exercise, mid-word punctuation counts towards the character limit of a word.
   // e.g: "it's / I'm" should become: "t's / I'M"
 
+//   separate string(sentence) into individual words
+// function splitSentence(){
+    var str = "how are you doing today?";
+    var res = str.split(" ");
+    console.log(res);
+    console.log(res[0]);
+  
+// }
+  
+// calculate the length of each word
+    // function wordLength(){
+for( var i=0; i<length; i++){
+
+        res[i] = '';
+        var s= ''
+        var rx = /[a-z(')]/gi;
+        var m = s.match(rx);
+        if (m) {
+          console.log(m.length);
+        }
+    }
+// }
+
+ 
+//   determine whether word should be capitalised or the vowels should be removed
+// function capitalVowels(){
+    if(length>4){
+        str.toUpperCase()
+    
+    }
+    
+    else{
+        str.replace(/[aeiou]/gi, '');
+    }
+// }
